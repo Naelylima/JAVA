@@ -3,11 +3,12 @@ package Componentes;
 import javax.swing.*;
 
 public class Botao extends JButton {
-    public Botao(String text, int width, int height, int xLocation, int yLocation){
-        super(text);
+    public Botao(int width, int height, int xLocation, int yLocation){
+
         this.setSize(width,height);
         this.setLocation(xLocation,yLocation);
-//        setContentAreaFilled(false);
+//        this.setContentAreaFilled(false);
+//        this.setBorderPainted(false);
 
     }
 }

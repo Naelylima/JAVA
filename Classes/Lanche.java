@@ -8,4 +8,9 @@ public class Lanche {
         this.nome = nome + " ";
         this.preco = preco ;
     }
+
+    @Override
+    public String toString() {
+        return nome;
+    }
 }

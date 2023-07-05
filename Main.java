@@ -1,8 +1,10 @@
+import Classes.Aplicativo;
+import Classes.ListaComCheckBox;
+
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        Aplicativo app = new Aplicativo();
-
-
+        new Aplicativo();
     }
 }
